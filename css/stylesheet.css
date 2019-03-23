@@ -55,6 +55,7 @@ body{
   box-shadow: 0 5px 0 #d1483e;
   padding: 7px;
   margin-top: 10px;
+  margin-bottom:5px;
   border-radius: 5px;
   text-align: center;
 }
@@ -70,6 +71,7 @@ body{
 
 #btn:active{
   margin-top: 15px;
+  margin-bottom: 0;
   box-shadow: none;
 }
 
@@ -77,4 +79,21 @@ body{
   text-align: right;
   margin: 10px 0;
   font-size: 24px;
+}
+
+.level{
+  cursor: pointer;
+  background: gray;
+  display:inline-block;
+  margin-top: 8px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px gray;
+}
+.level:hover{
+  opacity: .8;
+}
+
+.select{
+  background: red;
 }
